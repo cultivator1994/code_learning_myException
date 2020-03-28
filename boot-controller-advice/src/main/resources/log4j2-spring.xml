@@ -25,8 +25,8 @@
     </appenders>
 
     <loggers>
-        <logger name="com.york" level="info"/>
-        <logger name="com.york.dao.mapper" level="debug"/>
+        <logger name="com.sunyf" level="info"/>
+        <logger name="com.sunyf.dao.mapper" level="debug"/>
         <logger name="org.springframework.boot" level="info"/>
         <root level="info">
             <appender-ref ref="LogFileAppender" />

@@ -11,20 +11,20 @@
 		<property name="autoDelimitKeywords" value="true"/>
 
 
-        <plugin type="com.york.gen.MyMapperPlugin">
-            <property name="mappers" value="com.york.dao.mapper.BaseMapper" />
+        <plugin type="com.sunyf.gen.MyMapperPlugin">
+            <property name="mappers" value="com.sunyf.dao.mapper.BaseMapper" />
         </plugin>
 
 		<jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
 			connectionURL="jdbc:mysql://127.0.0.1:3306/supermarket" userId="root" password="123456">
 		</jdbcConnection>
 
-		<javaModelGenerator targetPackage="com.york.dao.entity" targetProject="src/main/java"/>
+		<javaModelGenerator targetPackage="com.sunyf.dao.entity" targetProject="src/main/java"/>
 
 		<sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
-		<javaClientGenerator type="XMLMAPPER" targetPackage="com.york.dao.mapper" targetProject="src/main/java">
-			<property name="rootClass" value="com.york.dao.base.BaseMapper" />
+		<javaClientGenerator type="XMLMAPPER" targetPackage="com.sunyf.dao.mapper" targetProject="src/main/java">
+			<property name="rootClass" value="com.sunyf.dao.base.BaseMapper" />
 		</javaClientGenerator>
 
 		<table tableName="order_item" domainObjectName="OrderItemEntity"></table>

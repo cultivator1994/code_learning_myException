@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.york.dao.mapper.GoodStockEntityMapper">
-  <resultMap id="BaseResultMap" type="com.york.dao.entity.GoodStockEntity">
+<mapper namespace="com.sunyf.dao.mapper.GoodStockEntityMapper">
+  <resultMap id="BaseResultMap" type="com.sunyf.dao.entity.GoodStockEntity">
     <!--
       WARNING - @mbg.generated
     -->
